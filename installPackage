@@ -1,0 +1,26 @@
+go get问题:
+
+cmd里面水下面命令 终极方案-goproxy代理 go env -w GOPROXY=https://goproxy.cn,direct 一条命令搞定
+
+
+
+
+
+
+2021-01-05,15点35
+
+
+go安装库包:
+
+
+
+
+go env -w GO111MODULE=on
+然后go get     xxx
+就会吧xxx下载到GOPATH对应的目录下面. 就可以import到了.
+
+
+
+
+
+
